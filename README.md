@@ -112,12 +112,8 @@ def generate_frames():
             frame = buffer.tobytes()
 
             # Use yield to stream the frame in a multipart format
-            yield (b'--frame
-'
-                   b'Content-Type: image/jpeg
-
-' + frame + b'
-')
+            yield (b'--frame\r\n'
+                   b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
 # Route to serve the video stream
 @app.route('/video_feed')
