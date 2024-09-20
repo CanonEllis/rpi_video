@@ -50,6 +50,7 @@ cd <project-folder>
 ```
 
 ### **3. Install Dependencies**
+⚠️ **Warning:** This project will most likely need to be don in venv, if you are unsure how to do that, reach out to me at my school email. 
 
 First, make sure you have `pip` installed. Then install the dependencies listed in the `requirements.txt` file:
 ```bash
