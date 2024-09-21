@@ -1,4 +1,3 @@
-
 # **Raspberry Pi Video Streaming with Flask and OpenCV**
 
 This project demonstrates how to stream video from a Raspberry Pi's camera or USB camera using **OpenCV** and **Flask**. The live video feed is captured using OpenCV and streamed over a local network to any device connected to the same network. The video is served through a simple web interface, making it accessible via a web browser.
@@ -50,7 +49,7 @@ cd <project-folder>
 ```
 
 ### **3. Install Dependencies**
-⚠️ **Warning:** This project will most likely need to be don in venv, if you are unsure how to do that, reach out to me at my school email. 
+⚠️ **Warning:** This project will most likely need to be done in venv, if you are unsure how to do that, reach out to me at my school email. 
 
 First, make sure you have `pip` installed. Then install the dependencies listed in the `requirements.txt` file:
 ```bash
