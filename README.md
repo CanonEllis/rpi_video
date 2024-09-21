@@ -20,6 +20,8 @@ This project demonstrates how to stream video from a Raspberry Pi's camera or US
 
 You can find these in the `requirements.txt` file for easy installation.
 
+⚠️ Warning: While im confident this will work for most use cases, mileage will vary based on certain hardware restrictions 
+
 ## **Installation Instructions**
 
 ### **1. Setting Up the Raspberry Pi**
@@ -31,6 +33,7 @@ Make sure your Raspberry Pi is set up and that the camera is enabled.
    sudo apt update && sudo apt upgrade -y
    ```
 
+   ⚠️ Warning: The below step is not required or even possible in rpi5 with bookworm. 
 2. Enable the Raspberry Pi camera (if using the Raspberry Pi Camera Module):
    ```bash
    sudo raspi-config
