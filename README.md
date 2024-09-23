@@ -47,7 +47,7 @@ Make sure your Raspberry Pi is set up and that the camera is enabled.
 
 Clone the repository (or create the necessary files if not using version control):
 ```bash
-git clone (https://github.com/CanonEllis/rpi_video.git)
+git clone https://github.com/CanonEllis/rpi_video.git
 cd <project-folder>
 ```
 
