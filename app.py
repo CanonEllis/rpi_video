@@ -41,5 +41,10 @@ def index():
         </html>
     '''
 
+# Suppress favicon.ico requests
+@app.route('/favicon.ico')
+def favicon():
+    return '', 204  # Respond with "No Content"
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5000)
